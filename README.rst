@@ -1,6 +1,6 @@
 urdu_python_kernel
 ===========
-> Run UrduPython code in Jupyter Notebook
+>> Run UrduPython code in Jupyter Notebook
 
 ``urdu_python_kernel`` is a simple wrapper over Jupyter's IPython kernel. It simply translates the code from Urdu to English before passing it on to IPython.
 
