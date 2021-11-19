@@ -8,7 +8,7 @@ import os
 setup(
     name='urdu_python',
     version='1.1',
-    packages=['urdu_python',],
+    # packages=['urdu_python',],
     description='UrduPython kernel for Jupyter',
     long_description=readme,
     author='Saad Bazaz',
