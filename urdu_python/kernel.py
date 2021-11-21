@@ -31,7 +31,7 @@ class UrduPythonKernel(IPythonKernel):
         try:
             compiled_code = run_module("lex", code, args = {
                             'translate': True,
-                            'dictionary': os.path.join(SCRIPTDIR, '../', 'languages/ur/ur_native.lang.yaml'),
+                            'dictionary': os.path.join(SCRIPTDIR, 'languages/ur/ur_native.lang.yaml'),
                             'reverse': False,
                             'keep': False,         
                             'keep_only': False,
@@ -52,7 +52,7 @@ class UrduPythonKernel(IPythonKernel):
         # try:
         compiled_code = run_module("lex", code, args = {
         'translate': True,
-        'dictionary': os.path.join(SCRIPTDIR, '../', 'languages/ur/ur_native.lang.yaml'),
+        'dictionary': os.path.join(SCRIPTDIR, 'languages/ur/ur_native.lang.yaml'),
         'reverse': False,
         'keep': False,         
         'keep_only': False,
